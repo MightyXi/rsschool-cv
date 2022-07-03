@@ -4,7 +4,7 @@
 Telegram: [Dmitrii](https://t.me/axaaxaxaxaxxxa)
 Discord: Nill Kiggers#9416
 
-######Projects: 
+###### Projects: 
 - this vecy cv
 
 ###### About me:
@@ -16,3 +16,14 @@ this because of having necessary skills. I.e. good communication skills, ability
 - C++
 - Javascript
 - Git
+
+
+```
+Examples of code can be easily found on my Git you are on right now
+```
+
+###### Education
+Belorussian State University, Faculty of Applied Mathematics and Informatics
+
+###### English
+B1
