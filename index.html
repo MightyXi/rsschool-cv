@@ -4,17 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TravelSales</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body class="page-body">
     <header>
+      <div class="container">
+        <a href="#" class="button" id="button">Login</a>
+       
+       </div>
+       
+       <div  class="popup">
+       
+          <div class="popup-content">
+       
+       
+           <img src="https://www.vippng.com/png/full/409-4094443_right-x-png-icon-free-download-onlinewebfonts-cross.png" alt="disapare image" class="close" id="close">
+       
+           <input type="text" placeholder="user/E-mail">
+       
+           <input type="password" placeholder="password">
+           <a href="#" class="button2" id="button2">Login</a>
+       
+          </div>
+       
+       </div>
+       <script>
+           document.getElementById("button").addEventListener("click", function(){
+          
+              document.querySelector(".popup").style.display = "flex";});
+          
+          document.getElementById("close").addEventListener("click", function(){
+          
+              document.querySelector(".popup").style.display="none";});
+          </script>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a href="#about-me">About us</a></li>
           <li class="nav__item"><a href="#skills">Tours</a></li>
           <li class="nav__item"><a href="#contact">Contact us</a></li>
+          
         </ul>
       </nav>
+
     </header>
     <main class="container">
       <div class="left-side">
@@ -91,5 +123,8 @@
      
       </a>
     </footer>
+    
+    </div>
+    
   </body>
 </html>
