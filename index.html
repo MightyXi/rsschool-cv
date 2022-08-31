@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelSales</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body class="page-body">
+    <header>
+      <div class="container">
+        <a href="#" class="button" id="button">Login</a>
+       
+       </div>
+       
+       <div  class="popup">
+       
+          <div class="popup-content">
+       
+       
+           <img src="https://www.vippng.com/png/full/409-4094443_right-x-png-icon-free-download-onlinewebfonts-cross.png" alt="disapare image" class="close" id="close">
+       
+           <input type="text" placeholder="user/E-mail">
+       
+           <input type="password" placeholder="password">
+           <a href="#" class="button2" id="button2">Login</a>
+       
+          </div>
+       
+       </div>
+       <script>
+           document.getElementById("button").addEventListener("click", function(){
+          
+              document.querySelector(".popup").style.display = "flex";});
+          
+          document.getElementById("close").addEventListener("click", function(){
+          
+              document.querySelector(".popup").style.display="none";});
+          </script>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about-me">About us</a></li>
+          <li class="nav__item"><a href="#skills">Tours</a></li>
+          <li class="nav__item"><a href="#contact">Contact us</a></li>
+          
+        </ul>
+      </nav>
+
+    </header>
+    <main class="container">
+      <div class="left-side">
+        <figure class="figure--left-side">
+          <img
+            src="https://static.toiimg.com/photo/78420828/airline.jpg?width=748&resize=4"
+            width="380"
+            height="507"
+            class="photo"
+            alt="Travel"
+          />
+        </figure>
+        <section class="contact" id="contact">
+          <h2 class="section-title">Contact us</h2>
+          <ul class="contact__list">
+            <li class="contact__item">
+            <li class="contact__item">
+              Email:<a>TravelSales@gmail.com</a>
+            </li>
+            <li class="contact__item">
+              Telegram: <a href="https://t.me/travelsales">TravelSAles</a>
+            </li>
+            <li class="contact__item">
+              Our office:<br />
+              <span>Minsk, Belarus</span>
+            </li>
+          </ul>
+        </section>
+        <section class="education" id="education">
+          <h2 class="section-title">More</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              If you are not saticefied with phone calls you can visit our office<br>
+              Lenina st, 16/2
+          </ul>
+        </section>
+      </div>
+      <div class="right-side">
+      <section class="page-title">
+        <h1 class="main-title">Explore your dream with TravelSales!</h1>
+      </section>
+      <section class="about-me" id="about-me">
+          <h2 class="section-title">About us</h2>
+          <p>
+            Our agency was founded in 2016 and since then has successfully sent more than
+            a thousand people on tours.<br />
+            Our goal is to provide you with all kinds of services to help you send on your dream trip
+           
+          </p>
+        </section>
+        <section class="skills" id="skills">
+          <h2 class="section-title">Tours</h2>
+          <ul class="skills__list">
+            <li>Tour all around the world</li>
+            <li>Europe tour</li>
+            <li>Visit Italy</li>
+            <li>Visit Frace</li>
+          </ul>
+        </section>
+        <section class="key-strengths" id="strengths">
+          <h2 class="section-title">Reasons to choose us</h2>
+          <ul class="key-strengths__list">
+            <li>5000+ satisfied clients</li>
+            <li>friendly staff</li>
+            <li>Best prices</li>
+            <li>Goal-oriented</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="footer__github" href="https://github.com/MightyXi" target="_blank">
+        My GitHub
+     
+      </a>
+    </footer>
+    
+    </div>
+    
+  </body>
+</html>
